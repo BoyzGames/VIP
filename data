@@ -1,1 +1,1 @@
-messageDialog("SERVER INFORMATION","INTERNET NOT FOUND!", mtWarning, mbOK)
+messageDialog("SERVER INFORMATION","GW GANTENG ANJAY", mInformation, mbOK)
