@@ -1,1 +1,1 @@
-messageDialog("HEE")
+messageDialog("SERVER INFORMATION","INTERNET NOT FOUND!", mtWarning, mbOK)
