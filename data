@@ -4,7 +4,7 @@ rizki = "ECA577CF-A745-3B4B-9D01-F9709EA3E599", -- Permanent
 
 if HWID.rizki == string.gsub(result,'UUID','') then
 messageDialog("HELLO RIZKI :)","Halo Rizki, Selamat Datang!",mtInformation, mbOK)
-UDF1.CELabel3.Caption = 'BOYZGAMES HANDSOME'
+UDF1.CELabel3.Caption = 'BOYZGAMES GANTENG'
 UDF1.CELabel4.Caption = 'Permanent'
 UDF1.CEPanel3.Visible = true
 return
