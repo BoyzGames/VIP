@@ -1,1 +1,1 @@
-messageDialog("SERVER INFORMATION","GW GANTENG ANJAY", mtInformation, mbOK)
+messageDialog(GITHUB TEST","GW GANTENG ANJAY", mtInformation, mbOK)
