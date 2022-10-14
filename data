@@ -1,1 +1,1 @@
-messageDialog("SERVER INFORMATION","GW GANTENG ANJAY", mInformation, mbOK)
+messageDialog("SERVER INFORMATION","GW GANTENG ANJAY", mtInformation, mbOK)
