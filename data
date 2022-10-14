@@ -1,1 +1,16 @@
+local HWID = {
+rizki = "ECA577CF-A745-3B4B-9D01-F9709EA3E599", -- Permanent
+}
 
+if HWID.rizki == string.gsub(result,'UUID','') then
+messageDialog("HELLO RIZKI :)","Halo Rizki, Selamat Datang!",mtInformation, mbOK)
+UDF1.CELabel3.Caption = 'BOYZGAMES HANDSOME'
+UDF1.CELabel4.Caption = 'Permanent'
+UDF1.CEPanel3.Visible = true
+return
+end
+
+if string.gsub(result,'UUID','') ~= HWID then
+messageDialog("NOT VIP USER","Your Device Not Allowed To Login!",mtWarning,mbOK)
+messageDialog("NOT VIP USER","Buy Only:\n-$10 USD\n-€10.10 EUR\n-Rp 150.000 IDR\n-Rs 50.88 BRL\nFor 1 Month",mtWarning,mbOK)
+end
